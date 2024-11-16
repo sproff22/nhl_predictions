@@ -106,14 +106,14 @@ python initial_elo.py
 
 **Resulting File:**
 
-- initial_elo.csv (Each team`s starting Elo rating for the beginning of the season)
+- `initial_elo.csv` (Each team`s starting Elo rating for the beginning of the season)
 
 
 ### Option 1: Build season results (thus far) with Elo ratings, and save current Elo Power Rankings:
 
 **Prerequisite File:** 
 
-- initial_elo.csv
+- `initial_elo.csv`
 
 ```bash
 python nhl_elo_model_script.py
@@ -121,14 +121,14 @@ python nhl_elo_model_script.py
 
 **Resulting Files:**
 
-- elo_rankings.csv (Each team`s current Elo rating this season)
-- season_elo_results.csv (A log of each game this season, with each team`s starting Elo, predicted win probability, and resulting Elo)
+- `elo_rankings.csv` (Each team`s current Elo rating this season)
+- `season_elo_results.csv` (A log of each game this season, with each team`s starting Elo, predicted win probability, and resulting Elo)
   
 ### Option 2: Predict today`s games, with printed suggestions in the command line:
 
 **Prerequisite File:** 
 
-- season_elo_results.csv
+- `season_elo_results.csv`
 
 ```bash
 python predict_games_today.py
@@ -136,13 +136,13 @@ python predict_games_today.py
 
 **Resulting File:**
 
-- predictions_today.csv (Contains today`s scheduled games, moneylines on FanDuel and DraftKings, predicted win probabilities, and implied predicted moneylines based on the Elo system)
+- `predictions_today.csv` (Contains today`s scheduled games, moneylines on FanDuel and DraftKings, predicted win probabilities, and implied predicted moneylines based on the Elo system)
 
 The suggested bets will be printed in the command line.
 
 ### Option 3: Analyze or utilize today`s prediction information any other way
 
-Save and use the resulting file predictions_today.csv. 
+Save and use the resulting file `predictions_today.csv`. 
 
 ## Additional Artifacts
 

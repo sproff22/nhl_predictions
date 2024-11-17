@@ -87,7 +87,7 @@ This iterative process is continued until `yesterday`, which is freshly defined 
 
   ```bash
   conda env create -f environment.yml
-  conda activate hockey
+  conda activate nhl_elo
   ```
 
 ### Run the project

@@ -80,7 +80,7 @@ This iterative process is continued until `yesterday`, which is freshly defined 
 
 **1.Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/nhl-elo-analysis.git
+   git clone https://github.com/sproff22/nhl_predictions
    cd nhl-elo-analysis
    ```
 **2. Set up the environment:**

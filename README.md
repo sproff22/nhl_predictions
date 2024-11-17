@@ -146,7 +146,7 @@ Save and use the resulting file `predictions_today.csv`.
 
 ## Additional Artifacts
 
-Also included in the repository is a notebook file `model_tuning.ipynb` and an html file `model_tuning.html`. The notebook file contains testing and validation code with visualizations and performance metrics to examine model performance through the season thus far. It also contains a cell to perform a grid search on the possible hyperparameters to tune. These hyperparameters can be tuned on the full results from the previous season to allow for the maximum sample size. The corresponding html file is provided as an example of the model analysis, from November of 2024.
+Also included in the repository is a notebook file `model_tuning.ipynb`. The notebook file contains testing and validation code with visualizations and performance metrics to examine model performance through the season thus far. It also contains a cell to perform a grid search on the possible hyperparameters to tune. These hyperparameters can be tuned on the full results from the previous season to allow for the maximum sample size. The outputs provided show an example of the model analysis, from November of 2024. When run over a full season, we can expect >60% game-by-game accuracy, with greater accuracy given to long-term projections from Elo ratings.
 
 ## References & Notes
 
